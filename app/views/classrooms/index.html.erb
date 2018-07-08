@@ -1,0 +1,4 @@
+<h1>Classrooms</h1>
+<% @classrooms.all do |room| %>
+    <%= render partial: 'classroom', locals: {classroom: room} %>
+<% end %>
